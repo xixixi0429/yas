@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>夜市美食</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">夜市美食</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">夜市美食精選</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">全台夜市通</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">台灣十大夜市</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header-->
+
+        <header class="masthead" style="background-image: url('4.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>夜市美食</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <section id="title">
+              <div><h3>台灣小吃非常豐富、便宜又多樣化，為你介紹幾道必吃美食，帶你一起逛遍台灣大小夜市！</h3></div>
+            </section>
+
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="#">
+                            <h2 class="post-title">台灣小吃精選</h2>
+                        </a>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="container">
+                        <div class="row">
+
+                          <div class="col-4">
+                            <button onclick="showDialog();" type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalCenter">
+                              <div class="card" style="width: 18rem;">
+                                <img alt="鳥蛋" src="13.jpg" />
+                                  <div class="card-body">
+                                    <h3 class="grid_name">鳥蛋</h3>
+                                  </div>
+                              </div>                                                     
+                            </button>
+							
+							<!-- Modal -->
+                    <div class="modal fade show" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                       <div id="exampleModalCenter" class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">介紹</h5>
+                            <button onclick="closeDialog();" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                          <h5 class="modal-title" id="exampleModalCenterTitle">鳥蛋</h5>
+                            <div class="modal-body">
+                              <p>一般想到鳥蛋就直覺小小一顆的，沒啥特別，也是火鍋常出現的配角，來到夜市吃小吃就是這樣~份量不多卻很美味的單品，一串7顆20元，一整排抹醬和調味醬任君挑選，現做的鳥蛋~還沒入口就聞到蛋香味，金黃色外皮酥脆，內裡口感軟嫩，像吃煎蛋的感覺</p>
+                            </div>
+                            <div onclick="closeDialog();" class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            </div>
+                       </div>                   
+                     </div>
+                    </div>
+						   </div>
+				
+                        
+                        <div class="col-4">
+                          <button onclick="showDialog();" type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalCenter2">
+                            <div class="card" style="width: 18rem;">
+                              <img alt="地瓜球" src="14.jpg" />                            
+                                <div class="card-body">
+                                  <h3 class="grid_name">地瓜球</h3>
+                                </div>
+                            </div>                        
+                         </button>
+						 <!-- Modal -->
+                    <div class="modal fade show" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                       <div id="exampleModalCenter" class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">介紹</h5>
+                            <button onclick="closeDialog();" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                          <h5 class="modal-title" id="exampleModalCenterTitle">地瓜球</h5>                                  
+                            <div class="modal-body">
+                              <p>地瓜球為台灣夜市攤位常見、備受喜愛的銅板價國民小吃，亮眼的顏色使用天然的黃金番薯、紫肉番薯、橙肉番薯製成，全素所以人人都能吃。一份30元、大份50元，但每顆油炸後都膨脹成圓滾滾的球體，幾乎都快滿出袋子啦！</p>
+                            </div>
+                            <div onclick="closeDialog();" class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            </div>
+                       </div>                   
+                     </div>
+                    </div>
+                     </div>
+
+                        <div class="col-4">
+                          <button onclick="showDialog();" type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalCenter">
+                            <div class="card" style="width: 18rem;">
+                              <img alt="剉冰" src="10.jpg" />    
+                                <div class="card-body">
+                                  <h3 class="grid_name">剉冰</h3>
+                                </div>
+                            </div>
+                          </button>
+						 <!-- Modal -->
+                    <div class="modal fade show" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                       <div id="exampleModalCenter" class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">介紹</h5>
+                            <button onclick="closeDialog();" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                            <h5 class="modal-title" id="exampleModalCenterTitle">剉冰</h5>                                  
+                            <div class="modal-body">
+                              <p>亦可稱「刨冰」，大多用刨冰機挫出碎冰，依個人選擇加入紅豆、粉圓、布丁、愛玉等等豐富配料，再淋上煉乳或黑糖水，即是沁涼消暑的夏日冰品。除了傳統的剉冰，也有越來越多創意新組合，例如在碎冰中加入新鮮芒果、草莓、冰淇淋、餅乾等，搭配出口感多層次的酸甜好滋味。
+							     相關美食推薦  廟東夜市：金樹鳳梨冰  華西街夜市(萬華夜市)：龍都冰菓專業家</p>
+                            </div>
+                            <div onclick="closeDialog();" class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            </div>
+                       </div>                   
+                     </div>
+                    </div>
+                        </div>
+
+                        <span style="font-size: 20px; color: white;">1</span>
+                          <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="about.html">更多美食 →</a></div>
+
+                        <hr class="my-4" />
+        </div>
+
+                       
+
+    </body>
+</html>
